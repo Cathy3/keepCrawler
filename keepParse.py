@@ -13,8 +13,15 @@ def json_parse(source_file):
 
 if __name__ == '__main__':    
 
-    data_daily = './data_daily.txt'
-    data_month = './data_month.txt'
-    data_week = './data_week.txt'
+#    data_daily = './data_daily.txt'
+#    data_month = './data_month.txt'
+#    data_week = './data_week.txt'
+    data_daily = './daily.txt'
+    data_month = './month.txt'
+    data_week = './week.txt'
     
-    data_dict = json_parse(data_daily)
+    dict_d = json_parse(data_daily)
+    dict_m = json_parse(data_month)
+    
+    
+    dict_m['now']
