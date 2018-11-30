@@ -10,6 +10,7 @@ def json_parse(source_file):
             data_dict = json.loads(r)
         
     return data_dict
+    
 
 if __name__ == '__main__':    
 
